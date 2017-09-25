@@ -1,0 +1,191 @@
+.goHome{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    position:absolute;
+    top:40%;
+    left:4%;
+    border-top:1px solid black;
+    border-right:1px solid black;
+    -webkit-transform:rotate(-135deg);
+    -moz-transform:rotate(-135deg);
+    -ms-transform:rotate(-135deg);
+}
+.Team{
+    width:100%;
+    height:130px;
+    padding:20px 15px;
+    border-bottom:2px solid #DDDDDD;
+}
+.Team .dateam_img{
+    width:47px;
+    height:47px;
+    float:left;
+    overflow:hidden;
+    border-radius:50%;
+}
+.Team .dateam_img img{
+    height:100%;
+}
+.Team .dateam{
+    float:right;
+    width:82%;
+    height:100%;
+}
+.Team .dateam .team_name{
+    height:45px;
+    width:50%;
+    line-height:45px;
+    font-size:0.812rem;
+    float:left;
+}
+.Team .dateam .team_name .mui-icon{
+    font-size:0.45rem;
+    color:#fff;
+}
+.Team .dateam .color_orange{
+    color:#cc7a00;
+}
+// .Team .dateam .color_orange .icon_bg{
+//     border-radius:100%;
+//     background:#cc7a00;
+//     margin-right:5px;
+// }
+.Team .dateam .color_orange .icon_bg img{
+    height:37%;
+    vertical-align:sub;
+}
+.mui-list li{
+    height: 30px;
+    border-bottom: 2px solid #DDDDDD;
+    margin-top: 5%;
+}
+.mui-list .list_one .title{
+    font-size: 15px;
+}
+.mui-list .list_one .name{
+    color: #6D6D72;
+}
+.mui-list .img img{
+    margin-left: 5%;
+    width: 5%;
+    height: 5%;
+}
+.title img{
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+}
+.mui-list .title .team{
+    color: #CC7A00;
+    font-size: 12px;
+}
+.price div{
+    font-size: 14px;
+    margin-left: 21%;
+}
+.price span{
+    color: #FF0F00;
+}
+.gray{
+    color: #6D6D72;
+    margin: 5% 0 5% 5%;
+    font-size: 15px;
+}
+.mui-list li>span:nth-child(2){
+    float: right;
+    margin-right: 4%;
+}
+.mui-collapse-content{
+    font-size: 13px;
+
+}
+.mui-collapse-content span:nth-child(2){
+    float: right;
+    color: #FF0F00;
+}
+.mui-collapse-content span:nth-child(4){
+    color: #6D6D72;
+}
+.mui-collapse-content span:last-child{
+    float: right;
+}
+.shandow{
+    border-top: 20px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+.shandow li{
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+.shandow li:last-child{
+    margin-bottom: 5%;
+}
+.shandow .starr{
+    width: 5%;
+    height: 5%;
+}
+.mui-content .mui-table-view .game-terrace{
+    color:#6D6D72;
+    font-size:15px;
+}
+.sys_spec_text li{
+    float: left;
+    position: relative;
+    margin:0.086957rem 0.26087rem 0.086957rem 0;
+    outline:none;
+    width:30%;
+    height:2.1rem;
+    line-height:2.1rem;
+    text-align:center;
+    display:list-item;
+    overflow: hidden;
+}
+.sys_spec_text dt{
+    
+}
+.sys_spec_text li a{
+    display:inline-block;
+    border:1px solid #ccc;
+    height:2.1rem;
+    line-height:2.1rem;
+    width:100%;
+}
+.sys_spec_text li i{
+    position: absolute;
+    width:0.652174rem;
+    height:0.652174rem;
+    right:2px;
+    bottom:2px;
+    z-index:99;
+    background:url(../img/sys_item_selected.gif) no-repeat right bottom;
+    display:none;
+}
+.sys_spec_text .selected a{
+    border:2px solid #e4393c;
+    padding:0 5px;
+}
+.sys_spec_text .selected i{
+    display:block;
+}
+
+footer .div{
+    font-size: 20px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background:#C8C7CC;
+}
+footer .team_price{
+    position: absolute;
+    bottom: 27%;
+    left: 5%;
+}
+footer .team_button{
+    color: #FFFFFF;
+    background: #CF2D28;
+    width: 40%;
+    height: 3rem;
+    float: right;
+    border-radius:0;
+}
